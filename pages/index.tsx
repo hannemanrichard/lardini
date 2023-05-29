@@ -23,7 +23,7 @@ export default function Home() {
   const [isLoading, setIsLoading] = useState(false);
   const [agents, setAgents] = useState<any>([]);
   const [agentsCount, setAgentsCount] = useState(0);
-  const [previewImage, setPreviewImage] = useState("05.jpg");
+  const [previewImage, setPreviewImage] = useState("04.jpg");
   const [size, setSize] = useState(40);
   const [model, setModel] = useState(2);
   const router = useRouter();
@@ -206,7 +206,7 @@ export default function Home() {
             </h1>
             <h6 className="text-2xl text-white">
               {" "}
-              تصاميم فريدة بألوان وأنماط متنوعة، مثالية لكل المناسبات
+              تصاميم فريدة بألوان و مثالية لكل المناسبات
             </h6>
           </div>
 
@@ -226,16 +226,19 @@ export default function Home() {
                   <button onClick={() => setPreviewImage("06.jpg")}>
                     <Image src="/06.jpg" width={128} height={160} />
                   </button>
+                  <button onClick={() => setPreviewImage("07.jpg")}>
+                    <Image src="/07.jpg" width={128} height={160} />
+                  </button>
                   {/* <button onClick={() => setPreviewImage("08.jpg")}>
                     <Image src="/08.jpg" width={128} height={160} />
                   </button> */}
                 </div>
               </div>
               <div>
-                <img src="/09.jpg" className="my-3" />
-                <img src="/01.jpg" className="my-3" />
-                <img src="/02.jpg" className="my-3" />
-                <img src="/03.jpg" className="my-3" />
+                <img src="/04.jpg" className="my-3" />
+                <img src="/05.jpg" className="my-3" />
+                <img src="/06.jpg" className="my-3" />
+                <img src="/07.jpg" className="my-3" />
               </div>
               <div className=" text-right mt-4">
                 <h1 className="text-xl mb-2 text-white">:كيفية الطلب </h1>
@@ -268,14 +271,17 @@ export default function Home() {
                   <img src={previewImage} alt="" className="" />
                 </div>
                 <div className="grid gap-2 grid-cols-5 mt-2">
-                  <button onClick={() => handleUpdateModel(1)}>
+                  <button onClick={() => setPreviewImage("04.jpg")}>
                     <Image src="/04.jpg" width={128} height={160} />
                   </button>
-                  <button onClick={() => handleUpdateModel(2)}>
+                  <button onClick={() => setPreviewImage("05.jpg")}>
                     <Image src="/05.jpg" width={128} height={160} />
                   </button>
-                  <button onClick={() => handleUpdateModel(3)}>
+                  <button onClick={() => setPreviewImage("06.jpg")}>
                     <Image src="/06.jpg" width={128} height={160} />
+                  </button>{" "}
+                  <button onClick={() => setPreviewImage("07.jpg")}>
+                    <Image src="/07.jpg" width={128} height={160} />
                   </button>
                   {/* <button onClick={() => handleUpdateModel(5)}>
                     <Image src="/08.jpg" width={128} height={160} />
@@ -300,15 +306,17 @@ export default function Home() {
               >
                 <h1 className="text-3xl  font-bold text-center text-white">
                   <span className="text-orange-500">(35% تخفيض)</span>
-                  <br /> أطلب الآن واستفد من التخفيض{" "}
+                  <br />
+                  أطلب الآن واستفد من التخفيض <br />
+                  مع هدية مجانية بقيمة 1500دح <br />و توصيل مجاني لجميع الولايات{" "}
                 </h1>
 
                 <form action="#" method="post">
                   <div className="p-4 border border-orange-600 rounded-lg mt-6">
                     <h3 className="text-lg mt-4 text-center text-white">
-                      قم بإختيار الموديل و المقاس{" "}
+                      قم بإختيار المقاس{" "}
                     </h3>
-                    <div>
+                    {/* <div>
                       <label className="label w-full text-right block mt-3">
                         <span className="label-text text-white ">الموديل</span>
                       </label>
@@ -376,9 +384,9 @@ export default function Home() {
                             alt=""
                             className="rounded-lg"
                           />
-                        </div> */}
+                        </div> 
                       </div>
-                    </div>
+                    </div> */}
                     <div>
                       <label className="label w-full text-right block mt-3">
                         <span className="label-text  text-white">المقاس</span>
@@ -529,10 +537,10 @@ export default function Home() {
                         </p>
                         <p className="sm:flex block text-center justify-center">
                           <span className="text-5xl text-orange-500 font-bold  block sm:inline">
-                            5400 DA
+                            5600 DA
                           </span>
                           <span className=" text-white text-lg line-through block sm:inline">
-                            8300 DA
+                            8600 DA
                           </span>
                         </p>
                       </div>
@@ -594,10 +602,10 @@ export default function Home() {
                 allowFullScreen
               ></iframe> */}
               <div className="text-right mt-0">
-                <img src="/09.jpg" className="my-3" />
-                <img src="/01.jpg" className="my-3" />
-                <img src="/02.jpg" className="my-3" />
-                <img src="/03.jpg" className="my-3" />
+                <img src="/04.jpg" className="my-3" />
+                <img src="/05.jpg" className="my-3" />
+                <img src="/06.jpg" className="my-3" />
+                <img src="/07.jpg" className="my-3" />
               </div>
               <div className=" text-right mt-4">
                 <h1 className="text-xl mb-2 text-white">:كيفية الطلب </h1>
