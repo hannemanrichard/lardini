@@ -229,6 +229,9 @@ export default function Home() {
                   <button onClick={() => setPreviewImage("07.jpg")}>
                     <Image src="/07.jpg" width={128} height={160} />
                   </button>
+                  <button onClick={() => setPreviewImage("08.jpg")}>
+                    <Image src="/08.jpg" width={128} height={160} />
+                  </button>
                   {/* <button onClick={() => setPreviewImage("08.jpg")}>
                     <Image src="/08.jpg" width={128} height={160} />
                   </button> */}
@@ -236,8 +239,9 @@ export default function Home() {
               </div>
               <div>
                 <img src="/04.jpg" className="my-3" />
-                <img src="/05.jpg" className="my-3" />
                 <img src="/06.jpg" className="my-3" />
+                <img src="/08.jpg" className="my-3" />
+                <img src="/05.jpg" className="my-3" />
                 <img src="/07.jpg" className="my-3" />
               </div>
               <div className=" text-right mt-4">
@@ -282,6 +286,9 @@ export default function Home() {
                   </button>{" "}
                   <button onClick={() => setPreviewImage("07.jpg")}>
                     <Image src="/07.jpg" width={128} height={160} />
+                  </button>
+                  <button onClick={() => setPreviewImage("08.jpg")}>
+                    <Image src="/08.jpg" width={128} height={160} />
                   </button>
                   {/* <button onClick={() => handleUpdateModel(5)}>
                     <Image src="/08.jpg" width={128} height={160} />
@@ -352,7 +359,7 @@ export default function Home() {
                             alt=""
                             className="rounded-lg"
                           />
-                        </div>
+                        </div>\
                         <div
                           onClick={() => handleUpdateModel(3)}
                           className={`flex cursor-pointer p-1 border-2  hover:border-orange-500 w-16 h-16 rounded-lg ${
@@ -603,8 +610,9 @@ export default function Home() {
               ></iframe> */}
               <div className="text-right mt-0">
                 <img src="/04.jpg" className="my-3" />
-                <img src="/05.jpg" className="my-3" />
                 <img src="/06.jpg" className="my-3" />
+                <img src="/08.jpg" className="my-3" />
+                <img src="/05.jpg" className="my-3" />
                 <img src="/07.jpg" className="my-3" />
               </div>
               <div className=" text-right mt-4">
