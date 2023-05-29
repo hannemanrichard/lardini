@@ -206,7 +206,7 @@ export default function Home() {
             </h1>
             <h6 className="text-2xl text-white">
               {" "}
-              تصاميم فريدة بألوان و مثالية لكل المناسبات
+              تصاميم فريدة مثالية لكل المناسبات
             </h6>
           </div>
 
@@ -311,11 +311,11 @@ export default function Home() {
                 className="bg-[#282828] rounded-2xl w-fullborder-2 py-4 px-6 border-gray-700"
                 id="form"
               >
-                <h1 className="text-3xl  font-bold text-center text-white">
+                <h1 className="text-2xl   text-center text-white">
                   <span className="text-orange-500">(35% تخفيض)</span>
                   <br />
                   أطلب الآن واستفد من التخفيض <br />
-                  مع هدية مجانية بقيمة 1500دح <br />و توصيل مجاني لجميع الولايات{" "}
+                  مع هدية مجانية بقيمة 1500دج <br />و توصيل مجاني لجميع الولايات{" "}
                 </h1>
 
                 <form action="#" method="post">
