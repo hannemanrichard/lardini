@@ -314,8 +314,8 @@ export default function Home() {
                 <h1 className="text-2xl   text-center text-white">
                   <span className="text-orange-500">(40% تخفيض)</span>
                   <br />
-                  أطلب الآن واستفد من التخفيض <br />
-                  مع هدية مجانية بقيمة 1500دج <br />{" "}
+                  أطلب الآن واستفد من التخفيض مع هدية قيمة <br />
+                    <br />{" "}
                 </h1>
 
                 <form action="#" method="post">
