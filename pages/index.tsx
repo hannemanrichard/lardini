@@ -544,10 +544,10 @@ export default function Home() {
                         </p>
                         <p className="sm:flex block text-center justify-center">
                           <span className="text-5xl text-orange-500 font-bold  block sm:inline">
-                            5400 DA
+                            5600 DA
                           </span>
                           <span className=" text-white text-lg line-through block sm:inline">
-                            8300 DA
+                            8600 DA
                           </span>
                         </p>
                       </div>
